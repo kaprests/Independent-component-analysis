@@ -1,15 +1,13 @@
-TMA4320 Prosjekt 1 - våren 2019
-Arkivet inneholder:
+TMA4320 - project 1
 
-Prosjekt_HO.ipynb	
-Dette er en mal for uavhengig komponentanalyse som gjennomføres i prosjektet.
+The notebook fastICA.ipynb simulates the cocktail party effect using independent component analysis.
+Mixed audio provided with the project task, as well as custom mixed audio, is sepparated back into the individual components.
+
+In addition to the notebook, this repo also includes:
 
 wav_file_loader.py
-Denne python-modulen lastes opp i Prosjekt_HO.ipynb og kan for eksempel legges på samme katalog som denne Notebook’en
+  -a python module for playing audio.
 
-audio er en katalog.
-I denne katalogen ligger mix_1.wav, mix_2.wav og mix_3.wav
-som er tre lydfiler som skal brukes som eksempler i uttestingen av programmet
-som skrives for uavhengig komponent analyse.
-Hver av disse filene inneholder en ulikt vektet kombinasjon av tre kildesignaler som
-skal rekonstrueres av algoritmen
+Audio files
+
+plot figures
